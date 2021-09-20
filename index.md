@@ -4,6 +4,8 @@ Welcome to my home page！Everything is still to be perfected, please forgive me
 
 
 ### golang笔记
+yydcnjjw:
+[1.变量](./变量.md)
 
 
 
