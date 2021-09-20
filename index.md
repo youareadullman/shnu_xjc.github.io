@@ -1,8 +1,7 @@
 ## SHNU-徐佳诚's page
 
-You can use the [editor on GitHub](https://github.com/youareadullman/shnu_xjc.github.io/edit/gh-pages/index.md) to maintain and preview the content for your website in Markdown files.
+Welcome to my home page！Everything is still to be perfected, please forgive me if you are not satisfied. If you have any questions, call me 13915669747 or mail me 158476245@qq.com.
 
-Whenever you commit to this repository, GitHub Pages will run [Jekyll](https://jekyllrb.com/) to rebuild the pages in your site, from the content in your Markdown files.
 
 ### Markdown
 
