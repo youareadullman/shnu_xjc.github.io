@@ -4,7 +4,7 @@ Welcome to my home page！Everything is still to be perfected, please forgive me
 
 
 ### golang笔记
-[1.变量](./变量.md)  &nbsp；&nbsp；[2.编码规范](./编码规范.md)
+[1.变量](./变量.md)  &nbsp;&nbsp;[2.编码规范](./编码规范.md)
 
 
 
