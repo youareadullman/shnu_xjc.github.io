@@ -1,4 +1,4 @@
-## Welcome to GitHub Pages
+## SHNU-徐佳诚's page
 
 You can use the [editor on GitHub](https://github.com/youareadullman/shnu_xjc.github.io/edit/gh-pages/index.md) to maintain and preview the content for your website in Markdown files.
 
