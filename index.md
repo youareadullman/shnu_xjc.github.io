@@ -11,7 +11,7 @@ Welcome to my home page！Everything is still to be perfected, please forgive me
 
 ### 数据挖掘（Data Mining）
 
-[朴素贝叶斯](./朴素贝叶斯.md)
+[Naive Bayes model](./Naive Bayes model.md)
 
 
 ### Support or Contact
