@@ -11,7 +11,7 @@ Welcome to my home page！Everything is still to be perfected, please forgive me
 
 ### 数据挖掘（Data Mining）
 
-[NaiveBayesmodel](./NaiveBayesmodel.md)&nbsp;&nbsp;[note2](./note2.md)
+[NaiveBayesmodel](./NaiveBayesmodel.md)&nbsp;&nbsp; &nbsp;&nbsp;[note2](./note2.md)
 
 
 ### Support or Contact
