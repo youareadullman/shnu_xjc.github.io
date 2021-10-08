@@ -151,10 +151,9 @@ $$
 
 #### 感知机学习算法的原始形式（Python 实现）
 
-【[源码地址](https://github.com/ChangxingJiang/Data-Mining-HandBook/blob/master/code/perceptron/_original_form.py)】code.perceptron.original_form_of_perceptron
 
 ```python
-# https://github.com/ChangxingJiang/Data-Mining-HandBook/blob/master/code/perceptron/_original_form.py
+
 
 def original_form_of_perceptron(x, y, eta):
     """感知机学习算法的原始形式
