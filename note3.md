@@ -248,8 +248,7 @@ def count_gram(x):
 
 
 
-```python
-# https://github.com/ChangxingJiang/Data-Mining-HandBook/blob/master/code/perceptron/_dual_form.py
+
 
 from . import count_gram  # code.perceptron.count_gram
 
