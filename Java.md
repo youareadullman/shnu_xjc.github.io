@@ -13,4 +13,5 @@ System.out.println(Arrays.toString(a));
 ArrayList<integer> arr=new ArrList<>{}
 for(int i=0;i<3;i++){
 arr.add(i)}
+System.out.println(Arrays.toString(a));
 ```
