@@ -24,3 +24,31 @@ int current=arr.get(i);
 System.out.println(current);}//遍历
 Arrays.sort(arr);//排序
 ```
+### 冒泡排序
+```java
+import java.util.Arrays;  
+  
+public class Test {  
+  public static void main(String[] args){  
+     int[] arr1={3,6,2,8,11,4,8};  
+     int[] arrSort=bubbleSort(arr1);  
+     System.out.println(Arrays.toString(arrSort));  
+  }  
+  
+  public static int[] bubbleSort(int[] arr) {    
+    int n = arr.length;    
+    for (int i = 0; i < n - 1; i++) {    
+        for (int j = 0; j < n - i - 1; j++) {    
+            if (arr[j] > arr[j + 1]) {    
+                // 交换arr[j]和arr[j+1]    
+                int temp = arr[j];    
+                arr[j] = arr[j + 1];    
+                arr[j + 1] = temp;    
+            }    
+        }   
+        System.out.println(Arrays.toString(arr)); // 打印每一轮排序后的数组  
+    }  
+    return arr;    
+}  
+}
+```
