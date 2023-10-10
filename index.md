@@ -1,4 +1,4 @@
-## SHNU-徐佳诚's page
+## DandelionXu's page
 ![alt 波吉](./Picture1.webp)  
 
 Welcome to my home page！Everything is still to be perfected, please forgive me if you are not satisfied. If you have any questions, call me 13915669747 or mail me 158476245@qq.com.
