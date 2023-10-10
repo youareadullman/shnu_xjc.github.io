@@ -3,7 +3,7 @@
 
 Welcome to my home page！Everything is still to be perfected, please forgive me if you are not satisfied. If you have any questions, call me 13915669747 or mail me 158476245@qq.com.
 ### Java Note
-[Java]
+[Java](./Java.md)
 ### Temp  
 [大数据与云计算](./区块链.rar)  
 [工程伦理](./动物竞赛、体育道德和基因编辑交叉的伦理问题.rar)
