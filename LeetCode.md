@@ -27,8 +27,10 @@ class Solution {
 <span id="2"></span>
 ## 27 移除元素
 给你一个数组 nums 和一个值 val，你需要 原地 移除所有数值等于 val 的元素，并返回移除后数组的新长度。
+```
 输入：nums = [3,2,2,3], val = 3
 输出：2, nums = [2,2]
+```
 ```java
  public int removeElement(int[] nums, int val) {
        int n = nums.length;
@@ -45,8 +47,10 @@ class Solution {
 <span id="3"></span>
 ## 283 移动零
 给定一个数组 nums，编写一个函数将所有 0 移动到数组的末尾，同时保持非零元素的相对顺序。
+```
 输入: nums = [0,1,0,3,12]
 输出: [1,3,12,0,0]
+```
 ```java
 class Solution {
     public void moveZeroes(int[] nums) {
