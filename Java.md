@@ -52,3 +52,16 @@ public class Test {
 }  
 }
 ```
+## 链表
+```java
+LinkedList<Integer> list=new LinkedList<>();
+add.list(1);
+add.list(2);
+add.list(2,99);
+System.out.println(list.toString())
+int element=list.get(2);
+int index=list.indexOf(99);
+list.set(2,88);
+list.remove(2);
+int length=list.size();
+```
