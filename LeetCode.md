@@ -72,7 +72,7 @@ class Solution {
 }
 ```
 <span id="4"></span>
-## 881 
+## 881 双指针贪心过河问题
 给定数组 people 。people[i]表示第 i 个人的体重 ，船的数量不限，每艘船可以承载的最大重量为 limit。
 每艘船最多可同时载两人，但条件是这些人的重量之和最多为 limit。
 返回 承载所有人所需的最小船数 。
@@ -97,5 +97,30 @@ class Solution {
         return ans;
     }
 }
-
+```
+## 704 二分查找
+给定一个 n 个元素有序的（升序）整型数组 nums 和一个目标值 target  ，写一个函数搜索 nums 中的 target，如果目标值存在返回下标，否则返回 -1。
+```
+输入: nums = [-1,0,3,5,9,12], target = 9
+输出: 4
+解释: 9 出现在 nums 中并且下标为 4
+```
+```java
+class Solution {
+    public int search(int[] nums, int target) {
+        int left = 0, right = nums.length - 1;
+        while (left <= right) {
+            int mid = (right - left) / 2 + left;
+            int num = nums[mid];
+            if (num == target) {
+                return mid;
+            } else if (num > target) {
+                right = mid - 1;
+            } else {
+                left = mid + 1;
+            }
+        }
+        return -1;
+    }
+}
 ```
