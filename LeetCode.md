@@ -1,4 +1,4 @@
-[485](#1)&nbsp;&nbsp;&nbsp; [27](#2)&nbsp;&nbsp;&nbsp; [283](#3)
+[485](#1)&nbsp;&nbsp;&nbsp; [27](#2)&nbsp;&nbsp;&nbsp; [283](#3)&nbsp;&nbsp;&nbsp; [881](#4)
 <span id="1"></span>
 ## 485 最大连续个数
 给定一个二进制数组 nums ， 计算其中最大连续 1 的个数。
@@ -70,4 +70,32 @@ class Solution {
         nums[right] = temp;
     }
 }
+```
+<span id="4"></span>
+## 881 
+给定数组 people 。people[i]表示第 i 个人的体重 ，船的数量不限，每艘船可以承载的最大重量为 limit。
+每艘船最多可同时载两人，但条件是这些人的重量之和最多为 limit。
+返回 承载所有人所需的最小船数 。
+```
+输入：people = [3,2,2,1], limit = 3
+输出：3
+解释：3 艘船分别载 (1, 2), (2) 和 (3)
+```
+```java
+class Solution {
+    public int numRescueBoats(int[] people, int limit) {
+        int ans = 0;
+        Arrays.sort(people);
+        int light = 0, heavy = people.length - 1;
+        while (light <= heavy) {
+            if (people[light] + people[heavy] <= limit) {
+                ++light;
+            }
+            --heavy;
+            ++ans;
+        }
+        return ans;
+    }
+}
+
 ```
