@@ -1,4 +1,4 @@
-[485](#1)&nbsp;&nbsp;&nbsp; [27](#2)&nbsp;&nbsp;&nbsp; [283](#3)&nbsp;&nbsp;&nbsp; [881](#4)&nbsp;&nbsp;&nbsp; [704](#5)&nbsp;&nbsp;&nbsp; [209](#6)
+[485](#1)&nbsp;&nbsp;&nbsp; [27](#2)&nbsp;&nbsp;&nbsp; [283](#3)&nbsp;&nbsp;&nbsp; [881](#4)&nbsp;&nbsp;&nbsp; [704](#5)&nbsp;&nbsp;&nbsp; [209](#6)&nbsp;&nbsp;&nbsp; [509](#7)
 <span id="1"></span>
 ## 485 最大连续个数
 给定一个二进制数组 nums ， 计算其中最大连续 1 的个数。
@@ -153,6 +153,33 @@ class Solution {
             }
         }
         return ans == Integer.MAX_VALUE ? 0 : ans;
+    }
+}
+```
+<span id="7"></span>
+## 509 斐波那契数列
+斐波那契数 （通常用 F(n) 表示）形成的序列称为 斐波那契数列 。该数列由 0 和 1 开始，后面的每一项数字都是前面两项数字的和。也就是：
+F(0) = 0，F(1) = 1
+F(n) = F(n - 1) + F(n - 2)，其中 n > 1
+给定 n ，请计算 F(n) 。
+```
+输入：n = 2
+输出：1
+解释：F(2) = F(1) + F(0) = 1 + 0 = 1
+```
+```java
+class Solution {
+    public int fib(int n) {
+        if (n < 2) {
+            return n;
+        }
+        int p = 0, q = 0, r = 1;
+        for (int i = 2; i <= n; ++i) {
+            p = q; 
+            q = r; 
+            r = p + q;
+        }
+        return r;
     }
 }
 ```
